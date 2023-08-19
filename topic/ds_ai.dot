@@ -1,5 +1,5 @@
 digraph {
-ranksep=3;
+ranksep=1;
 
 "CSE 21: Math for Algo" -> "CSE 103: Intro to Prob/Stats";
 "CSE 12: Basic DSA" -> {"CSE 150A: Intro AI: Prob Reasoning/Decision-Making", "CSE 150B: Intro AI: Search/Reasoning",

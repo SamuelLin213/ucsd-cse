@@ -10,8 +10,9 @@ body {
 }
 
 img {
-  max-width: 95%;
+  max-width: 99%;
   min-width: 75%;
+  padding: 50px 0px;
 }
 
 p {
@@ -26,4 +27,39 @@ ul {
 
 h2 {
   margin-top: 75px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  padding: 0 20px;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 50px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  border-radius: 50%; /* Rounded corners */
+  padding: 0;
+}
+
+img#myBtn {
+  max-width: 5%;
+  min-width: 5%;
+}
+
+#myBtn:hover {
+  background-color: #FFD700; /* Add a dark-grey background on hover */
 }

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <img onclick="topFunction()" id="myBtn" src="top.png"></img>
     <div class="content">
       <h1 class="title">UCSD Undergraduate CSE Prerequisites</h1>
       <p><b>Note: blue arrows indicate "or" prereqs; any origin node will fulfill as a
@@ -13,7 +14,14 @@
         <br>Please note that prereqs only take into account CSE courses. There may be
         courses from other departments that are required and/or can be used as an
         alternative prereq.</p>
-      <h2>Lower Division Courses</h2>
+
+      <h2>Jump to:</h2>
+      <ul class="nav">
+        <li><a href="#lowDiv">Lower Division Courses</a></li>
+        <li><a href="#upperDiv">Upper Division Courses</a></li>
+      </ul>
+
+      <h2 id="lowDiv">Lower Division Courses</h2>
       <img src="./ld.png">
       <p style="margin-top: 50px;"><u>Miscellaneous lower division courses:</u>
         <ul>
@@ -26,9 +34,43 @@
         </ul>
       </p>
 
-      <h2>Upper Division Courses</h2>
-      <img src="./ud.png">
-      <p style="margin-top: 50px;"><u>Miscellaneous upper division courses:</u>
+      <h2 id="upperDiv">Upper Division Courses</h2>
+      <a href="">Graph of all upper division courses (warning: very large)</a>
+      <h2>Jump to:</h2>
+      <ul class="nav">
+        <li><a href="#dsa">Data Structures and Algorithms</a></li>
+        <li><a href="#ds_ai">Data Science and Artificial Intelligence</a></li>
+        <li><a href="#swe">Software Engineering and Software Principles</a></li>
+        <li><a href="#hw">Hardware Systems</a></li>
+        <li><a href="#cg">Computer Graphics</a></li>
+        <li><a href="#db">Database Systems</a></li>
+        <li><a href="#network">Network</a></li>
+        <li><a href="#cyber">Cybersecurity</a></li>
+        <li><a href="#web">Web Development</a></li>
+        <li><a href="#sci">Social and Natural Sciences</a></li>
+      </ul>
+
+      <h3 id="dsa">Data Structures and Algorithms</h3>
+      <img src="./topic/dsa.png">
+      <h3 id="ds_ai">Data Science and Artificial Intelligence</h3>
+      <img src="./topic/ds_ai.png">
+      <h3 id="swe">Software Engineering and Software Principles</h3>
+      <img src="./topic/swe.png">
+      <h3 id="hw">Hardware Systems</h3>
+      <img src="./topic/hardware.png">
+      <h3 id="cg">Computer Graphics</h3>
+      <img src="./topic/comp_graph.png">
+      <h3 id="db">Database Systems</h3>
+      <img src="./topic/db.png">
+      <h3 id="network">Network Systems</h3>
+      <img src="./topic/network.png">
+      <h3 id="cyber">Cybersecurity</h3>
+      <img src="./topic/cybersecurity.png">
+      <h3 id="web">Web Development</h3>
+      <img src="./topic/web_dev.png">
+      <h3 id="sci">Social and Natural Sciences</h3>
+      <img src="./topic/sci.png">
+      <p><u>Miscellaneous upper division courses:</u>
         <ul>
           <li>CSE 125: Software System Design/Implementation</li>
           <li>CSE 145L: Embedded System Design Project</li>
@@ -47,5 +89,7 @@
         </ul>
       </p>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
