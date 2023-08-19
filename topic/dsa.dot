@@ -1,0 +1,11 @@
+digraph {
+ranksep=3;
+
+"CSE 21: Math for Algo" -> {"CSE 100: Advanced DSA", "CSE 101: Design and Analysis of Algo", 
+	"CSE 105: Theory of Computability", "CSE 106: Discrete/Cont Optimization"};
+"CSE 12: Basic DSA" -> {"CSE 100: Advanced DSA", "CSE 101: Design and Analysis of Algo", "CSE 105: Theory of Computability"};
+"CSE 15L: Software Tools/Tech Labs" -> {"CSE 100: Advanced DSA", "CSE 105: Theory of Computability"};
+"CSE 30: Computer Org/Systems Programming"-> {"CSE 100: Advanced DSA", "CSE 109: Intro Programming Contest"};
+"CSE 20: Discrete Math" -> {"CSE 105: Theory of Computability"};
+"CSE 100: Advanced DSA" -> "CSE 160: Intro Parallel Computing";
+}

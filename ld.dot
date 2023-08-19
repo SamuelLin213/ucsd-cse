@@ -1,0 +1,15 @@
+digraph {
+"CSE 8A: Intro Programming I" -> "CSE 8B: Intro to Programming II";
+"CSE 11: Intro Programming Accelerated" -> "CSE 12: Basic DSA"[color="blue"];
+"CSE 8B: Intro to Programming II" -> "CSE 15L: Software Tools/Tech Labs"[color="blue"];
+"CSE 8B: Intro to Programming II" -> "CSE 12: Basic DSA"[color="blue"];
+"CSE 11: Intro to Programming Accelerated" -> "CSE 15L: Software Tools/Tech Labs"[color="blue"];
+"CSE 12: Basic DSA" -> "CSE 15L: Software Tools/Tech Labs"[color="blue"];
+"CSE 8A: Intro Programming I" -> "CSE 20: Discrete Math"[color="blue"];
+"CSE 11: Intro Programming Accelerated" -> "CSE 20: Discrete Math"[color="blue"];
+"CSE 8B: Intro to Programming II" -> "CSE 20: Discrete Math"[color="blue"];
+"CSE 20: Discrete Math" -> "CSE 21: Math for Algo";
+"CSE 12: Basic DSA" -> "CSE 30: Computer Org/Systems Programming";
+"CSE 15L: Software Tools/Tech Labs" -> "CSE 30: Computer Org/Systems Programming";
+"CSE 12: Basic DSA" -> "CSE 86: C++ for Java Programmers";
+}

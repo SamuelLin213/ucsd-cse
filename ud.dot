@@ -1,0 +1,44 @@
+digraph {
+ranksep=5;
+
+"CSE 21: Math for Algo" -> {"CSE 100: Advanced DSA", "CSE 101: Design and Analysis of Algo", "CSE 103: Intro to Prob/Stats", 
+	"CSE 105: Theory of Computability", "CSE 106: Discrete/Cont Optimization", "CSE 107: Intro Modern Cryptography", 
+	"CSE 127: Intro to Comp Security"};
+"CSE 12: Basic DSA" -> {"CSE 100: Advanced DSA", "CSE 101: Design and Analysis of Algo", "CSE 105: Theory of Computability", 
+	"CSE 130: Programming Languages", "CSE 150A: Intro AI: Prob Reasoning/Decision-Making", "CSE 150B: Intro AI: Search/Reasoning",
+	"CSE 151A: Intro ML", "CSE 152A: Intro Computer Vision", "CSE 156: Stat NLP", "CSE 158: Recommender Systems/Web Mining", 
+	"CSE 170: Interaction Design", "CSE 185: Advanced Bioinfo Lab", "CSE 194: Race, Gender and Computing"};
+"CSE 15L: Software Tools/Tech Labs" -> {"CSE 100: Advanced DSA", "CSE 105: Theory of Computability", "CSE 150A: Intro AI: Prob Reasoning/Decision-Making",
+	"CSE 150B: Intro AI: Search/Reasoning", "CSE 151A: Intro ML", "CSE 152A: Intro Computer Vision", "CSE 156: Stat NLP", 
+	"CSE 158: Recommender Systems/Web Mining"};
+"CSE 30: Computer Org/Systems Programming"-> {"CSE 100: Advanced DSA", "CSE 109: Intro Programming Contest", "CSE 120: Principles of Comp OS",
+	"CSE 123: Comp Networks", "CSE 124: Networked Services", "CSE 140: Components/Design Techniques for Digital Systems",
+	"CSE 141: Intro Comp Arch", "CSE 142: Intro Comp Arch: Software"};
+"CSE 20: Discrete Math" -> {"CSE 105: Theory of Computability", "CSE 140: Components/Design Techniques for Digital Systems"};
+
+
+
+"CSE 100: Advanced DSA" -> {"CSE 110: Software Engineering", "CSE 130: Programming Languages", "CSE 131: Compiler Construction", 
+	"CSE 132A: DB Systems Principles", "CSE 134B: Web Client Languages", "CSE 135: Online DB Analytics Apps",
+	"CSE 142: Intro Comp Arch: Software", "CSE 150B: Intro AI: Search/Reasoning", "CSE 160: Intro Parallel Computing",
+	"CSE 166: Image Processing", "CSE 167: Comp Graphics", "CSE 181: Molecular Sequence Analysis", "CSE 182: Biological DB"};
+"CSE 105: Theory of Computability" -> {"CSE 107: Intro Modern Cryptography", "CSE 130: Programming Languages", "CSE 131: Compiler Construction"};
+"CSE 101: Design and Analysis of Algo" -> {"CSE 107: Intro Modern Cryptography", "CSE 120: Principles of Comp OS", "CSE 123: Comp Networks", 
+	"CSE 124: Networked Services", "CSE 181: Molecular Sequence Analysis"};
+"CSE 103: Intro to Prob/Stats" -> {"CSE 150A: Intro AI: Prob Reasoning/Decision-Making", "CSE 150B: Intro AI: Search/Reasoning",
+	"CSE 151A: Intro ML", "CSE 151B: Deep Learning", "CSE 156: Stat NLP", "CSE 158: Recommender Systems/Web Mining"};
+"CSE 110: Software Engineering" -> {"CSE 112: Advanced Software Engineering", "CSE 120: Principles of Comp OS", "CSE 123: Comp Networks", 
+	"CSE 124: Networked Services"};
+{"CSE 131: Compiler Construction", "CSE 132B: DB Systems Applications"} -> "CSE 118: Ubiquitous Computing"[color="blue"];
+{"CSE 120: Principles of Comp OS", "CSE 123: Comp Networks", "CSE 124: Networked Services"} -> "CSE 127: Intro to Comp Security"[color="blue"];
+"CSE 130: Programming Languages" -> "CSE 131: Compiler Construction";
+"CSE 132A: CSE 132A: DB Systems Principles" -> {"CSE 132B: DB Systems Applications", "CSE 132C: DB System Implementation"};
+"CSE 135: Online DB Analytics Apps" -> "CSE 136: Enterprise-Class Web Apps";
+"CSE 140: Components/Design Techniques for Digital Systems" -> {"CSE 141: Intro Comp Arch", "CSE 143: Microelectronic System Design"};
+"CSE 141: Intro Comp Arch" -> "CSE 148: Advanced Processor Arch Design Project";
+{"CSE 152A: Intro Computer Vision", "CSE 166: Image Processing"} -> "CSE 152B: Intro Computer Vision II"[color="blue"];
+"CSE 167: Comp Graphics" -> {"CSE 163: Advanced Comp Graphics", "CSE 165: 3-D User Interaction", "CSE 168: Comp Graphics II", "CSE 169: Comp Animation"};
+{"CSE 170: Interaction Design", "CSE 110: Software Engineering"} -> "CSE 176A: Health Care Robotics"[color="blue"];
+{"CSE 181: Molecular Sequence Analysis", "CSE 182: Biological DB"} -> "CSE 184: Comp Molecular Bio (BI majors only)"[color="blue"];
+{ "CSE 11: Intro Programming Accelerated", "CSE 8B: Intro to Programming II"} -> "CSE 185: Advanced Bioinfo Lab"[color="blue"];
+}

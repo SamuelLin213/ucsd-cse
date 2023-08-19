@@ -1,0 +1,6 @@
+digraph {
+"CSE 30: Computer Org/Systems Programming"-> {"CSE 123: Comp Networks", "CSE 124: Networked Services"};
+
+"CSE 101: Design and Analysis of Algo" -> {"CSE 123: Comp Networks", "CSE 124: Networked Services"};
+"CSE 110: Software Engineering" -> {"CSE 123: Comp Networks", "CSE 124: Networked Services"};
+}

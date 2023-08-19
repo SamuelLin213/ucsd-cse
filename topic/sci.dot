@@ -1,0 +1,8 @@
+digraph {
+"CSE 12: Basic DSA" -> {"CSE 185: Advanced Bioinfo Lab", "CSE 194: Race, Gender and Computing"};
+"CSE 100: Advanced DSA" -> {"CSE 181: Molecular Sequence Analysis", "CSE 182: Biological DB"};
+"CSE 101: Design and Analysis of Algo" -> "CSE 181: Molecular Sequence Analysis";
+{"CSE 170: Interaction Design", "CSE 110: Software Engineering"} -> "CSE 176A: Health Care Robotics"[color="blue"];
+{"CSE 181: Molecular Sequence Analysis", "CSE 182: Biological DB"} -> "CSE 184: Comp Molecular Bio (BI majors only)"[color="blue"];
+{ "CSE 11: Intro Programming Accelerated", "CSE 8B: Intro to Programming II"} -> "CSE 185: Advanced Bioinfo Lab"[color="blue"];
+}

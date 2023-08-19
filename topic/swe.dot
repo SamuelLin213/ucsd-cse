@@ -1,0 +1,7 @@
+digraph {
+"CSE 12: Basic DSA" -> "CSE 130: Programming Languages";
+
+"CSE 100: Advanced DSA" -> {"CSE 110: Software Engineering", "CSE 130: Programming Languages"};
+"CSE 105: Theory of Computability" -> "CSE 130: Programming Languages";
+"CSE 110: Software Engineering" -> "CSE 112: Advanced Software Engineering";
+}

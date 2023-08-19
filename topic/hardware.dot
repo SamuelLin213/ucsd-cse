@@ -1,0 +1,14 @@
+digraph {
+"CSE 30: Computer Org/Systems Programming"-> {"CSE 120: Principles of Comp OS", "CSE 140: Components/Design Techniques for Digital Systems",
+	"CSE 141: Intro Comp Arch", "CSE 142: Intro Comp Arch: Software"};
+"CSE 20: Discrete Math" -> "CSE 140: Components/Design Techniques for Digital Systems";
+
+"CSE 100: Advanced DSA" -> {"CSE 131: Compiler Construction", "CSE 142: Intro Comp Arch: Software"};
+"CSE 105: Theory of Computability" -> "CSE 131: Compiler Construction";
+"CSE 101: Design and Analysis of Algo" -> "CSE 120: Principles of Comp OS";
+"CSE 110: Software Engineering" -> "CSE 120: Principles of Comp OS";
+{"CSE 131: Compiler Construction", "CSE 132B: DB Systems Applications"} -> "CSE 118: Ubiquitous Computing"[color="blue"];
+"CSE 130: Programming Languages" -> "CSE 131: Compiler Construction";
+"CSE 140: Components/Design Techniques for Digital Systems" -> {"CSE 141: Intro Comp Arch", "CSE 143: Microelectronic System Design"};
+"CSE 141: Intro Comp Arch" -> "CSE 148: Advanced Processor Arch Design Project";
+}

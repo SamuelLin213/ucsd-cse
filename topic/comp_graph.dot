@@ -1,0 +1,4 @@
+digraph {
+"CSE 100: Advanced DSA" -> {"CSE 166: Image Processing", "CSE 167: Comp Graphics"};
+"CSE 167: Comp Graphics" -> {"CSE 163: Advanced Comp Graphics", "CSE 165: 3-D User Interaction", "CSE 168: Comp Graphics II", "CSE 169: Comp Animation"};
+}

@@ -1,0 +1,5 @@
+digraph {
+"CSE 12: Basic DSA" -> "CSE 170: Interaction Design";
+"CSE 100: Advanced DSA" -> "CSE 134B: Web Client Languages";
+"CSE 135: Online DB Analytics Apps" -> "CSE 136: Enterprise-Class Web Apps";
+}

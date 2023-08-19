@@ -1,0 +1,14 @@
+digraph {
+ranksep=3;
+
+"CSE 21: Math for Algo" -> "CSE 103: Intro to Prob/Stats";
+"CSE 12: Basic DSA" -> {"CSE 150A: Intro AI: Prob Reasoning/Decision-Making", "CSE 150B: Intro AI: Search/Reasoning",
+	"CSE 151A: Intro ML", "CSE 152A: Intro Computer Vision", "CSE 156: Stat NLP", "CSE 158: Recommender Systems/Web Mining"};
+"CSE 15L: Software Tools/Tech Labs" -> {"CSE 150A: Intro AI: Prob Reasoning/Decision-Making", "CSE 150B: Intro AI: Search/Reasoning", 
+	"CSE 151A: Intro ML", "CSE 152A: Intro Computer Vision", "CSE 156: Stat NLP", "CSE 158: Recommender Systems/Web Mining"};
+
+"CSE 100: Advanced DSA" -> "CSE 150B: Intro AI: Search/Reasoning";
+"CSE 103: Intro to Prob/Stats" -> {"CSE 150A: Intro AI: Prob Reasoning/Decision-Making", "CSE 150B: Intro AI: Search/Reasoning",
+	"CSE 151A: Intro ML", "CSE 151B: Deep Learning", "CSE 156: Stat NLP", "CSE 158: Recommender Systems/Web Mining"};
+{"CSE 152A: Intro Computer Vision", "CSE 166: Image Processing"} -> "CSE 152B: Intro Computer Vision II"[color="blue"];
+}

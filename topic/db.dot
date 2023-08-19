@@ -1,0 +1,4 @@
+digraph {
+"CSE 100: Advanced DSA" -> {"CSE 132A: DB Systems Principles", "CSE 135: Online DB Analytics Apps"};
+"CSE 132A: DB Systems Principles" -> {"CSE 132B: DB Systems Applications", "CSE 132C: DB System Implementation"};
+}

@@ -1,0 +1,29 @@
+body {
+  max-width: 100vw;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 95%;
+  min-width: 75%;
+}
+
+p {
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+}
+
+ul {
+  margin: 10px;
+}
+
+h2 {
+  margin-top: 75px;
+}
