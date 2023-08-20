@@ -32,7 +32,7 @@ ranksep=5;
 {"CSE 131: Compiler Construction", "CSE 132B: DB Systems Applications"} -> "CSE 118: Ubiquitous Computing"[color="blue"];
 {"CSE 120: Principles of Comp OS", "CSE 123: Comp Networks", "CSE 124: Networked Services"} -> "CSE 127: Intro to Comp Security"[color="blue"];
 "CSE 130: Programming Languages" -> "CSE 131: Compiler Construction";
-"CSE 132A: CSE 132A: DB Systems Principles" -> {"CSE 132B: DB Systems Applications", "CSE 132C: DB System Implementation"};
+"CSE 132A: DB Systems Principles" -> {"CSE 132B: DB Systems Applications", "CSE 132C: DB System Implementation"};
 "CSE 135: Online DB Analytics Apps" -> "CSE 136: Enterprise-Class Web Apps";
 "CSE 140: Components/Design Techniques for Digital Systems" -> {"CSE 141: Intro Comp Arch", "CSE 143: Microelectronic System Design"};
 "CSE 141: Intro Comp Arch" -> "CSE 148: Advanced Processor Arch Design Project";
